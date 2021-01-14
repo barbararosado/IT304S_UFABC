@@ -18,14 +18,22 @@ Este trabalho se trata de um projeto da disciplina IT304S - "Comercialização d
 
 
 ### Perguntas de Pesquisa
-
+#### Análise Prévia
+* A Demanda Contratada está adequada? Se não, qual deveria ser a contratação?
+* Há excesso de reativos? É necessário fazer correção do fator de potência da instalação?
+* Existe tendência de crescimento no consumo de energia? E na Demanda Registrada?
+#### Estudo de Viabilidade de Migração para o Mercado Livre
+* Vale a pena migrar para o Mercado Livre? Como consumidor livre ou especial?
+* Qual é a economia estimada?
+* Qual é o preço da energia a partir de quando compensa a migração?
+* Qual a recomendação para uma contratação?
 
 ### Objetivos do Projeto
 
 
 ## Recursos e Métodos
 ### Bases de Dados
-
+[Faturas de Energia Elétrica das Unidades Consumidoras da UFABC obtidas de janeiro de 2015 a abril de 2020.](data/raw/) 
 
 ### Ferramentas
 

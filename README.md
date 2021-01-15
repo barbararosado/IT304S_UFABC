@@ -11,7 +11,7 @@ Este trabalho se trata de um projeto da disciplina IT304S - "Comercialização d
 * Lucas Cesilla de Souza (RA 172639)
 * Rafael Kotchetkoff Carneiro (RA 137364)
 
-## Vídeo do projeto
+## [Vídeo do projeto](https://www.youtube.com/watch?v=pKWZxsq4D5M&ab_channel=RafaelKotchetkoffCarneiro)
 
 
 ## Introdução e Motivação

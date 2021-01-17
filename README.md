@@ -29,14 +29,16 @@ Este trabalho se trata de um projeto da disciplina IT304S - "Comercialização d
 * Qual a recomendação para uma contratação?
 
 ### Objetivos do Projeto
-
+Através da análise do histórico de consumo das unidades consumidoras da UFABC, isto é, dos campi de Santo André e São Bernardo do Campo, este projeto visa verificar sua situação atual no mercado regulado e como seria sua situação futura migrando para o mercado livre. A análise atual no ambiente cativo é realizada através da verificação de sua demanda contratada, sua modalidade de tarifação (i.e., tarifa horosazonal azul ou verde) e de seu fator de potência (através do excesso de reativos). A análise de viabilidade de migração para o mercado livre, por sua vez, é realizada através da análise de modulação
 
 ## Recursos e Métodos
 ### Bases de Dados
-[Faturas de Energia Elétrica das Unidades Consumidoras da UFABC obtidas de janeiro de 2015 a abril de 2020.](data/raw/) 
+Neste trabalho os dados utilizados foram originados da digitalização das [faturas de energia elétrica das unidades consumidoras da UFABC obtidas de janeiro de 2015 a abril de 2020.](data/raw/)
 
 ### Ferramentas
-
+As ferramentas empregadas são listadas a seguir:
+* Planilhas do excel desenvolvidas para análise da [situação atual das unidades consumidoras no mercado regulado](data/processed) e [viabilidade de migração para o mercado livre](docs/analysis);
+* Modelo de otimização para definição da [melhor demanda a ser contratada por cada uma das unidades consumidoras](https://digital-library.theiet.org/content/journals/10.1049/iet-gtd.2019.1343)
 
 ## Metodologia
 
@@ -51,9 +53,6 @@ Este trabalho se trata de um projeto da disciplina IT304S - "Comercialização d
 
 
 ## Conclusões
-
-
-## Trabalhos Futuros
 
 
 ## Referências Bibliográficas

@@ -56,7 +56,34 @@ As ferramentas empregadas são listadas a seguir:
 
 ## Conclusões
 
+Recomenda-se para a universidade a buscar contratos de curto-prazo, tendo em vista as incertezas existentes em relação ao aumento do consumo de energia e da conclusão das obras em ambas as unidades. 
+. Para questões de garantia contratuais, recomenda-se que a garantia seja de contra pagamento. Assim a energia do mês subsequente só é registrada pelo vendedor após o pagamento do consumo do mês anterior pelo consumidor. 
+. A sazonalização aplicada nesta análise possibilitou um ajuste da energia contratada em relação ao consumo real das unidades. Pela análise de Monte Carlo, vemos que a modulação do tipo flat não é vantajosa, sendo mais vantajoso a adequação da energia contratada em relação ao consumo horário das unidades.
+
+Vale a pena financeiramente a migração ao ML. Somente o contrato trimestral não compensa
+O ideal seria na modalidade de Consumidor Especial
+O contrato é recomendado de 2 anos. 
+Energia incentivada ao preço de R$ 199,64/MWh. Dados DCIDE curva Forward
+A compensação para migração ocorre em 2022 (carta denúncia 6 meses antes etc.)
+A economia para SA:  R$ 1,6 milhão no período do contrato (R$ 800k/ano)
+A economia para SB:  R$ 600 mil no período do contrato      (R$ 300k/ano)
+
+Total: 
+R$ 1,1 milhão/ano
+
+
 
 ## Referências Bibliográficas
+* [UFABC em números](http://propladi.ufabc.edu.br/images/ufabc_numeros/ufabc_numeros_ref2019.pdf)
+*	[ANEEL, “Resolução Normativa nº 414, de 09 de setembro de 2010”](http://www2.aneel.gov.br/cedoc/ren2010414.pdf)
+*	[ANEEL, “Tarifas Consumidores”](https://www.aneel.gov.br/tarifas-consumidores/-/asset_publisher/zNaRBjCLDgbE/content/alta-tensao/654800?inheritRedirect=false)
+*	[ENEL Distribuição SP, “Tarifas de Energia Elétrica”](https://www.eneldistribuicaosp.com.br/corporativo-poder-publico/tarifa-de-energia-eletrica)
+* [INMET, “Banco de Dados Meteorológicos do Instituto Nacional de Metereologia (INMEP)”](https://bdmep.inmet.gov.br/#)
+* [UFABC, “Relatório Anual de Gestão – UFABC”](http://propladi.ufabc.edu.br/informacoes/relatorio-de-gestao>. Acesso em: 10 dez. 2020.)
+*	[UFABC, “Histórico - Universidade Federal do ABC campus Santo André”](https://www.ufabc.edu.br/administracao/obras/santo-andre/historico)
+*	[UFABC, “Histórico - Universidade Federal do ABC campus São Bernardo do Campo”](https://www.ufabc.edu.br/administracao/obras/sao-bernardo-do-campo/historico-2)
+*	[B. Rosado, R. Torquato, B. Venkatesh, H. B. Gooi, W. Freitas e M. J. Rider, “Framework for optimizing the demand contracted by large customers,” IET Generation, Transmission & Distribution, 14 (4), pp. 635-644, 2019.](https://digital-library.theiet.org/content/journals/10.1049/iet-gtd.2019.1343)
+*	[ANEEL, “Procedimentos de Distribuição de Energia Elétrica (PRODIST): Módulo 8 – Qualidade da Energia Elétrica”](https://www.aneel.gov.br/modulo-8)
+*	[Denergia, “Dashboard: Boletim da curva Forward”](https://www.denergia.com.br/dashboard)
 
 

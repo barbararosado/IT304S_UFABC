@@ -1,7 +1,7 @@
 # Estudo de Viabilidade Econômica de Migração para o Mercado Livre da UFABC
 
 ## Descrição Resumida do Projeto
-Este trabalho se trata de um projeto da disciplina IT304S - "Comercialização de Energia Elétrica para Grandes Clientes" ministrada na UNICAMP durante o 2º semestre de 2020 com o propósito de se avaliar a viabilidade econômica de migração para o mercado livre dos dois campi da Universidade Federal do ABC (UFABC).
+Este trabalho se trata de um projeto da disciplina IT304S - "Comercialização de Energia Elétrica para Grandes Clientes" ministrada na Pós-Graduação da Faculdade de Engenharia Elétrica e de Computação (FEEC) da Universidade Estadual de Campinas (UNICAMP) durante o 2º semestre de 2020 com o propósito de se avaliar a viabilidade econômica de migração para o mercado livre dos dois campi da Universidade Federal do ABC (UFABC), o campus de Santo André e o de São Bernardo do Campo.
 
 ## Equipe
 * Bárbara Resende Rosado (RA 145393)
@@ -18,6 +18,8 @@ Este trabalho se trata de um projeto da disciplina IT304S - "Comercialização d
 
 
 ### Perguntas de Pesquisa
+Este projeto visa responder as perguntas de cada um dos estudos a seguir.
+
 #### Análise Prévia
 * A Demanda Contratada está adequada? Se não, qual deveria ser a contratação?
 * Há excesso de reativos? É necessário fazer correção do fator de potência da instalação?

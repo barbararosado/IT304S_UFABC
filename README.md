@@ -13,12 +13,13 @@ Este trabalho se trata de um projeto da disciplina IT304S - "Comercialização d
 
 ## [Vídeo do projeto](https://www.youtube.com/watch?v=pKWZxsq4D5M&ab_channel=RafaelKotchetkoffCarneiro)
 
-
 ## Introdução e Motivação
-
+A Universidade Federal do ABC (UFABC) tem como propósito fornecer educação em nível superior no ABC Paulista através de seus dois campi, localizados em Santo André e São Bernardo do Campo, ambos sob área de concessão de distribuição de energia da ENEL SP. Ambas unidades consumidoras pertencem ao subgrupo A4, sendo o campus de Santo André o maior. O campus de São Bernardo do Campo está em expansão física e em número de alunos, apontando, desta forma, uma perspectiva crescente de consumo de energia. Além disso, anualmente o campus de Santo André gasta cerca de R$ 3 milhões com energia elétrica, enquanto o campus de Santo André gasta em torno de R$ 1 milhão. Estes altos gastos com energia elétrica no mercado cativo de energia elétrica, isto é, no Ambiente de Contratação Regulada (ACR), abrem margem para a análise e verificação de possíveis economias com a sua mudança para o mercado livre de energia, visto que a adesão ao mercado livre traz como principal benefício a redução de custos.
+No Ambiente de Contratação Livre (ACL) os participantes podem negociar livremente todas as condições comerciais de energia elétrica como fornecedor, preço, quantidade de energia contratada, período de suprimento, pagamento, entre outras. Desta forma, os consumidores livres podem adquirir energia alternativamente ao suprimento da concessionária local, diferente do ACR, no qual cada unidade consumidora (UC) paga apenas uma fatura de energia por mês, incluindo o serviço de distribuição e a geração da energia, e as tarifas são reguladas pela ANEEL. No ACL, cada UC paga uma fatura referente ao serviço de distribuição para a concessionária local (tarifa regulada) e uma ou mais faturas referentes à compra da energia (preço negociado de contrato).
+Além da isenção das bandeiras tarifárias, o mercado livre possui duas formas de energia distintas: a energia incentivada e a energia convencional, sendo a primeira estabelecida para estimular a expansão de geradores de fontes renováveis, como Pequenas Centrais Hidroelétricas (PCH), Biomassa, Eólica e Solar, e a segunda proveniente dos outros tipos de geradores, como usinas térmicas a gás ou grandes hidroelétricas. A energia incentivada permite que o comprador desse tipo de energia recebe descontos (de 50%, 80% ou 100%) na Tarifa de Uso do Sistema de Distribuição (TUSD). Desta forma, há diversas possibilidades de contratação no ACL, as quais permitem que o consumidor ajuste seu contrato de acordo com suas necessidades.
 
 ### Perguntas de Pesquisa
-Este projeto visa responder as perguntas de cada um dos estudos a seguir.
+O mercado livre possui um potencial de economia, sendo um meio seguro e confiável de adquirir energia elétrica por um valor negociável, já que permite que o consumidor escolha, entre os diversos tipos de contratos, aquele que melhor atenda às suas expectativas de custo e benefício. Diante deste contexto, este projeto visa analisar a viabilidade de migração da UFABC para o ACL através da busca por respostas das seguintes perguntas.
 
 #### Análise Prévia
 * A Demanda Contratada está adequada? Se não, qual deveria ser a contratação?

@@ -46,13 +46,13 @@ As ferramentas empregadas são listadas a seguir:
 * Modelo de otimização para definição da [melhor demanda a ser contratada por cada uma das unidades consumidoras](https://digital-library.theiet.org/content/journals/10.1049/iet-gtd.2019.1343)
 
 ## Metodologia
+A metodologia empregada neste projeto envolveu verificar a tendência de consumo de demanda e de energia elétrica através dos dados extraídos das faturas de energia elétrica para o período de janeiro de 2015 a abril de 2020, identificando a sazonalidade de consumo das UCs de acordo com o funcionamento da universidade. Para a análise de contratação de demanda, utilizou-se um modelo de otimização linear inteiro-misto que, através de dados históricos de consumo, garante uma boa contratação para ambos os postos horários analisados. Para as análises de modulação, sazonalização e flexibilização do contrato no ACL, foi utilizado o método de Monte Carlo através da geração de um alto número de cenários a serem simulados a fim de identificar quais as melhores características a serem empregadas na contratação de energia no ACL. Finalmente, para a aferição da economia estimada que a migração para o mercado livre pode trazer empregou-se uma simulação simples utilizando dados de consumo médio de cada uma das UCs e tarifas em vigor para a concessionária de distribuição local (para o ACR), bem como valores baseados na curva Forward (para o ACL).
 
+### Detalhamento e Evolução do Projeto
+O projeto foi executado em duas etapas:
+* A primeira parte, relatada no documento [UFABC - Relatório Análise Dados e Contrato Atual.pdf](docs/reports) visa responder as perguntas citadas em **Análise Prévia**, isto é, analisar o comportamento do consumo de energia elétrica e de demanda atual no ACR ao longo dos anos, além da verificação do fator de potência de cada uma das unidades e da definição de valores de contratação de demanda de energia elétrica.
 
-### Detalhamento do Projeto
-
-
-### Evolução do Projeto
-
+* A segunda parte, detalhada no documento [UFABC - Relatório Recomendações Migração ACL.pdf](docs/reports) visa responder as perguntas citadas em **Estudo de Viabilidade de Migração para o Mercado Livre**. Desta forma, verifica-se todos os fatores referentes a contratação de energia elétrica no ACL, bem como compara-se os ganhos de sua possível contratação em comparação com a situação atual no ACR.
 
 ## Resultados e Discussão
 

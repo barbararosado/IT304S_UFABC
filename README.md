@@ -65,11 +65,13 @@ Anualmente, os consumidores do grupo A que possuem tarifa binômia, isto é, que
 
 A UC de Santo André demonstrou possuir um comportamento bastante semelhante ao longo dos anos para ambos os postos horários. Embora em alguns meses ocorra ultrapassagem de 105% da demanda contratada, seu consumo de demanda oscila em torno do valor contratado, indicando que o contrato pode estar bem ajustado. Já a UC de São Bernardo do Campo, embora também possua um comportamento similar ao longo dos anos, verificou-se um consumo de demanda atípico para os anos de 2015 e 2016.
 
-Adicionalmente, as curvas de demanda a seguir demonstram que há uma maior diferença da demanda de ponta e fora ponta na unidade de Santo André e uma menor diferença na de São Bernardo do Campo. O comportamento relaciona-se ao fato de que o campus de Santo André possui maior quantidade de prédios administrativos e de laboratórios, com mais atividades sendo realizadas em horário comercial, abrangendo a maior parte da demanda fora ponta. O campus de São Bernardo do Campo, por sua vez, possui apenas um bloco em funcionamento, o bloco Alfa, que é dedicado principalmente ao ensino. Como 55% das aulas são realizadas no período noturno, que abrange boa parte do período de ponta, é natural que as demandas apresentem um perfil mais igualitário. No entanto, entende-se que a diferença entre demanda ponta e fora ponta para São Bernardo do Campo aumente com a expansão do campus e com o aumento das atividades administrativas e laboratoriais ao longo dos horários comerciais.
+Adicionalmente, as curvas de demanda a seguir, Figura 1 e 2, demonstram que há uma maior diferença da demanda de ponta e fora ponta na unidade de Santo André e uma menor diferença na de São Bernardo do Campo. O comportamento relaciona-se ao fato de que o campus de Santo André possui maior quantidade de prédios administrativos e de laboratórios, com mais atividades sendo realizadas em horário comercial, abrangendo a maior parte da demanda fora ponta. O campus de São Bernardo do Campo, por sua vez, possui apenas um bloco em funcionamento, o bloco Alfa, que é dedicado principalmente ao ensino. Como 55% das aulas são realizadas no período noturno, que abrange boa parte do período de ponta, é natural que as demandas apresentem um perfil mais igualitário. No entanto, entende-se que a diferença entre demanda ponta e fora ponta para São Bernardo do Campo aumente com a expansão do campus e com o aumento das atividades administrativas e laboratoriais ao longo dos horários comerciais.
 
 ![](consumo_SA.jpeg)
+**Figura 1: Demanda verificada no campus de Santo André em kW.**
 
 ![](consumo_SBC.jpeg)
+**Figura 2: Demanda verificada no campus de São Bernardo do Campo em kW.**
 
 A análise da demanda a ser contratada, através da simulação do modelo de otimização, indicou que ambas as contratações atuais de demanda estão bem próximas aos resultados obtidos, isto é, sabendo que a contratação atual do campus de Santo André é de 1400 kW, enquanto que de São Bernardo do Campo é de 500 kW.
 Conforme verificado, para o campus de Santo André o estudo resultou em um valor de aproximadamente 1260 kW para o posto horário de ponta e de 1420 kW para o de fora ponta. Atualmente, sob a modalidade horosazonal verde, o mais indicado seria que a UC contratasse o maior valor dentre os dois, logo, 1420 kW, bastante próximo aos 1400 kW atualmente contratados. Já para o campus de São Bernardo do Campo, o estudo resultou em um valor de aproximadamente 465 kW para o posto horário de ponta e 445 kW para o de fora ponta. Novamente, para uma única contratação, o valor mais indicado seria de 465 kW, um pouco inferior, porém ainda próximo, ao contrato atual de 500 kW.
@@ -86,22 +88,30 @@ Desse modo, esta análise considerou a migração para o ACL a partir de 2022, a
 
 Tomando como base os dados de consumo médio de energia, obtidos através da análise dos valores verificados nos anos de 2018 e 2019 de ambos os campi de Santo André (SA) e de São Bernardo do Campo (SBC), estima-se um consumo similar para curto prazo, isto é, para 2022 e 2023. Para as análises, o montante do contrato refere-se ao consumo total de cada unidade por ano e o consumo mensal foi calculado dividindo-se o montante contratado por 12 meses e a potência média (“mega médio”) dividindo-se o montante do contrato pelas horas do ano (8760 h). Para a sazonalização, recomenda-se um intervalo de 10% de tolerância para ambas as unidades, possibilitando adequar o consumo contratado mensal ao consumo observado nas unidades. O mesmo valor pode ser adotado para flexibilidade.
 
-Nos estudos, verificou-se que a sazonalização possibilitou um melhor ajuste da energia contratada em relação ao consumo mensal, respeitando o limite de ±10% permitidos para cálculo da sazonalização, conforme pode ser visto nas figuras a seguir para ambos os campi. Percebe-se também, que o consumo total sazonalizado apresenta o mesmo valor do montante contratado, conforme requerido pela CCEE.
+Nos estudos, verificou-se que a sazonalização possibilitou um melhor ajuste da energia contratada em relação ao consumo mensal, respeitando o limite de ±10% permitidos para cálculo da sazonalização, conforme pode ser visto nas Figuras 3 e 4 para ambos os campi. Percebe-se também, que o consumo total sazonalizado apresenta o mesmo valor do montante contratado, conforme requerido pela CCEE.
 
-![Sazonalização Santo André](sazonalizacao_SA.jpeg)
+![](sazonalizacao_SA.jpeg)
 
-![Sazonalização São Bernardo do Campo](sazonalizacao_SBC.jpeg)
+**Figura 3: Consumo sazonalizado e faixas de flexibilidade para o campus de Santo André.**
+
+![](sazonalizacao_SBC.jpeg)
+
+**Figura 4: Consumo sazonalizado e faixas de flexibilidade para o campus de São Bernardo do Campo.**
 
 Ressalta-se que quanto maior a flexibilidade mensal adotada, mais dentro das previsões fica seu consumo. Porém, há um *trade-off* entre flexibilização e preço, uma vez que uma energia contratada com larga flexibilização possui um preço bem mais alto do que uma energia contratada com baixa flexibilização, mas com boa previsão de consumo.
 
-Para a análise da modulação, duas alternativas foram consideradas, conforme ilustrado a seguir. A primeira através do ajuste da contratação horosazonal da energia em relação ao padrão de consumo das UCs. A outra através da contratação “flat”, dividindo-se o consumo diário pelas 24 horas do dia. 
+Para a análise da modulação, duas alternativas foram consideradas, conforme ilustrado na Figura 5. A primeira através do ajuste da contratação horosazonal da energia em relação ao padrão de consumo das UCs. A outra através da contratação “flat”, dividindo-se o consumo diário pelas 24 horas do dia. 
 O consumo horário foi modelado considerando um padrão de consumo com pico de energia no fim da tarde. Os valores de energia foram calculados através do consumo de dezembro de 2019, convertendo o consumo mensal para o consumo diário. A partir de ambas as opções, foram simulados diferentes consumos reais para unidade, permitindo uma variação de ±10% em relação ao consumo contratado ajustado para cada hora do dia. Para esta simulação foi utilizada a análise de Monte Carlo com 5.000 cenários, variando-se aleatoriamente as diferenças percentuais do consumo de energia real em relação ao consumo contratado ajustado. Para cálculo da liquidação das diferenças, utilizou-se os valores horários do PLD do dia 02/12/2020, que apresentou um dos maiores valores de energia no ano. O valor do montante consumido (MC) a ser pago ou abatido ao final do dia é dado pela diferença do consumo real e do contratado para cada hora do dia é multiplicado pelo valor do PLD horário.
 
 ![](contrato_flat_ajustado.jpeg)
 
-Conforme demonstrado pelos diagramas de caixa (i.e., *boxplot*), os resultados mostraram que a modulação ajustada apresentou uma menor mediana, próxima de zero, e valores de montante diário variando em torno de ± R$ 2.000,00. Já para modulação flat a mediana ficou em torno de R$ 2.500,00. Desse modo, a modulação ajustada apresentou vantagens econômicas frente a modulação flat, as quais podem ser mitigadas ou até mesmo creditadas ao consumidor caso haja uma boa gestão da energia hora a hora.
+**Figura 5: Modulação a partir da opção *flat* e da opção de consumo ajustado para a unidade de Santo André.**
+
+Conforme demonstrado pelos diagramas de caixa (i.e., *boxplot*) da Figura 6, os resultados mostraram que a modulação ajustada apresentou uma menor mediana, próxima de zero, e valores de montante diário variando em torno de ± R$ 2.000,00. Já para modulação flat a mediana ficou em torno de R$ 2.500,00. Desse modo, a modulação ajustada apresentou vantagens econômicas frente a modulação flat, as quais podem ser mitigadas ou até mesmo creditadas ao consumidor caso haja uma boa gestão da energia hora a hora.
 
 ![](boxplot.jpeg)
+
+**Figura 6: Comparação do montante a ser pago ou creditado do consumidor para ambas as opções de modulação variando-se o consumo real em ±𝟏𝟎% da demanda estimada.**
 
 Conforme exposto, recomenda-se que a universidade busque contratos de curto-prazo, tendo em vista as incertezas existentes em relação ao aumento do consumo de energia e da conclusão das obras em ambas as unidades. Desse modo, para uma análise conservadora, o montante do contrato foi baseado no consumo médio observados nos anos de 2018 e 2019 para ambas as UCs. Para questões de garantia contratuais, recomenda-se que a garantia seja de contra pagamento, devido à característica de curto prazo do contrato almejado. Desse modo, a energia do mês subsequente só é registrada pelo vendedor após o pagamento do consumo do mês anterior pelo consumidor. Recomenda-se, portanto, que a universidade possua caixa para honrar mês a mês o seu compromisso.
 
